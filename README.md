@@ -38,7 +38,7 @@ bind=,XF86Launch2,exec, ~/.config/hypr/scripts/keyboard.sh prev
 
 You can use `wev` or `xev` depending on the WM you are using. Like I’m using wayland so I have used `wev`. If you are on Xorg or X11 you can use `xev` to find which key you are pressing.
 
-I had liked `keyboard.sh` to the `~/.config/hypr/scripts/` using the symbolic links
+I had linked `keyboard.sh` to the `~/.config/hypr/scripts/` using the symbolic links
 ```bash
 ln -s $(realpath keyboard.sh) ~/.config/hypr/configs/
 ```
