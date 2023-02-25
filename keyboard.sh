@@ -38,7 +38,6 @@ function prev_color(){
         last_index=$(cat $index_file)
     else
         last_index=$(( ${#command[@]} - 1 ))
-        # last_index=9
     fi
 
     i=$last_index
